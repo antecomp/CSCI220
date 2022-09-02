@@ -6,7 +6,7 @@ private:
  int num, den; // member variables
  public:
  // constructor
- Fraction(int n = 3, int d = 1) {
+ Fraction(int n , int d ) {
  num = n;
  den = d;
  }
@@ -30,6 +30,12 @@ private:
  }
 
 void main{
-    Fraction a = new Fraction(3,5)
-    Fraction b = new
+    Fraction a = new Fraction(3,5);
+    Fraction b = new Fraction(1,5);
+    Fraction add = new Fraction;
+    add = a+b;
+    Fraction mul= new Fraction;
+    int mul = a*b;
+    cout << a << b << add << mul << endl;
+
 }
