@@ -1,7 +1,7 @@
 
 namespace implementation {
 	//template <class T> 
-	template <typename T, typename X> // gives me a ton of compile-time errors???
+	template <typename T, typename X>
 	class holds5 {
 		public:
 		holds5(T a, T b, T c, T d, T e) {
