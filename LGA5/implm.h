@@ -1,7 +1,7 @@
 
 namespace implementation {
-	template <class T> 
-	//template <typename A, B> // gives me a ton of compile-time errors???
+	//template <class T> 
+	template <typename T, typename X> // gives me a ton of compile-time errors???
 	class holds5 {
 		public:
 		holds5(T a, T b, T c, T d, T e) {
@@ -12,7 +12,7 @@ namespace implementation {
 		T getItem(int index) {
 			return _data[index];
 		}
-		template <class X>
+		//template <class X>
 		void print_five (X item) {
 			for(int i = 0; i < 5; i++) {
 				std::cout << item << " ";
